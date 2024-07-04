@@ -1,3 +1,4 @@
+// complete this js code
 function Person(name, age) {
 	this.name=name;
 	this.age=age;
@@ -22,3 +23,7 @@ var john = new Employee("Bob", 30, "Manager");
 
 john.greet();
 john.jobGreet();
+
+// Do not change code below this line
+window.Person = Person;
+window.Employee = Employee;
